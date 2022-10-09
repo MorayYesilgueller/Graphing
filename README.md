@@ -71,31 +71,35 @@ the code.
 
 ## Keybindings
 
-The keys listed below modify the view according to their description and they can be prepended by a number that performs the action repeatedly unless explicitly stated. The keybindings are heavily inspired by vi/Vim:
--**z**: zoom into center of view
--**o**: zoom out of view
--**h**: move view left
--**j**: move view down
--**k**: move view up
--**l**: move view right
--**r**: decrease iteration count (faster, less detail)
--**t**: increase iteration count (slower, more detail)
--**m**: resets all the view parameters to the default values (i.e. return to starting view), number prefix is ignored
--**v**: toggle real|imaginary view, number prefix is ignored
--**c**: change coloring function
--**x**: toggle axis drawing [NOT WORKING :(], number prefix is ignored
--**w**: increase the spread (increase brightness)
--**s**: decrease the spread (decrease brightness)
--**f**: increase `variable1` by 1
--**g**: decrease `variable1` by 1
--**y**: increase `variable2` by 1
--**n**: decrease `variable2` by 1
+The keys listed below modify the view according to their description and they can be prepended by a number that performs the action repeatedly unless explicitly stated. The keybindings are heavily inspired by vi/Vim.
+| Key | Action |
+|---|---|
+| **z** | zoom into center of view |
+| **o** | zoom out of view |
+| **h** | move view left |
+| **j** | move view down |
+| **k** | move view up |
+| **l** | move view right |
+| **r** | decrease iteration count (faster, less detail) |
+| **t** | increase iteration count (slower, more detail) |
+| **m** | resets all the view parameters to the default values (i.e. return to starting view), number prefix is ignored |
+| **v** | toggle real|imaginary view, number prefix is ignored |
+| **c** | change coloring function |
+| **x** | toggle axis drawing [NOT WORKING :(], number prefix is ignored |
+| **w** | increase the spread (increase brightness) |
+| **s** | decrease the spread (decrease brightness) |
+| **f** | increase `variable1` by 1 |
+| **g** | decrease `variable1` by 1 | 
+| **y** | increase `variable2` by 1 |
+| **n** | decrease `variable2` by 1 |
 
 Example: `123l` moves the view to the ***left*** ***123*** times
 
 The following keys are special and will NOT force a redraw of the frame unless explicitly mentioned:
--**e**: Print view parameters to the console, useful to know where the view or the current spread
--**b**: Save the frame as a bitmap [NOT WORKING :(]
--**u**: undoes the latest modification [NOT WORKING :(]. Should force a redraw that is identical to the previous frame.
+| Key | Action |
+|---|---|
+| **e** |  Print view parameters to the console, useful to know where the view or the current spread |
+| **b** | Save the frame as a bitmap [NOT WORKING :(] |
+| **u** | undoes the latest modification [NOT WORKING :(]. Should force a redraw that is identical to the previous frame. |
 
 
